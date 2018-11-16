@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Bookstore.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+
+            <asp:Image ID="logo" runat="server" ImageUrl="http://www.ehealthyimage.com/Images/PhotoTour/Pictures/jnl_logo_600x300.jpg" ToolTip="JNL" />
+            <asp:Label ID="lblBookStore" runat="server" Text="JNL BookStore"></asp:Label>
+            <asp:Button ID="btnAbout" runat="server" Text="Home" OnClick="btnAbout_Click" />
+            &nbsp;&nbsp;
+            <asp:Button ID="btnHome" runat="server" Text="About Us" OnClick="btnHome_Click" />
+
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <marquee behavior="scroll" direction="left">Made By: Navpreet Kaur, Luis Rios Ortiz and Jeanice Nguyen</marquee>
+        </footer>
+    </form>
+</body>
+</html>

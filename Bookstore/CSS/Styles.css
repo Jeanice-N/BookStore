@@ -1,0 +1,57 @@
+﻿#logo {
+    width: 150px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#lblBookStore {
+    margin-top: -20px;
+    margin-left: 350px;
+    font-size: 250%;
+    color: White;
+    font-style: italic;
+    text-shadow: 0 0 20px #FF0000, 0 0 8px #0000FF;
+}
+#btnHome {
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 15px;
+    border-radius: 25px;
+}
+#btnAbout {
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 25px;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+    text-shadow: 0 0 50px white, 0 0 30px red;
+    font-style: italic;
+}
+body {
+    background-image: url('https://s.smore.com/fr/books.18ceefdb.jpg');
+}
+
